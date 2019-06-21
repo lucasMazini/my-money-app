@@ -1,0 +1,3 @@
+export const USER_FETCHED = 'USER_FETCHED';
+
+export const TOKEN_VALIDATED = 'TOKEN_VALIDATED';

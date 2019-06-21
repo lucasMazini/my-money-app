@@ -1,0 +1,25 @@
+/*Global (reset, corpo da pagina, estilo padrão para parágrafos, listas, etc.)
+Cabeçalho da página
+Estrutura da página
+Rodapé
+Estilos de títulos
+Estilos de texto
+Navegação
+Formulários
+Extras ou Miscelâneas*/
+.backgroundLogin {
+    background-color: #24292e;
+    height: 100% !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+.form-access {
+    color: #ffffff;
+    background-image: linear-gradient( to top right, rgba(3, 97, 18, 0.85), rgba(22, 205, 198, 0.90));
+    width: 100%;
+    max-width: 420px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}

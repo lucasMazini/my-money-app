@@ -1,0 +1,31 @@
+#background-logo {
+    background-color: #58a8ff;
+    padding: 8px;
+}
+
+.avatar-mini-image {
+    width: 30px;
+    border-radius: 100%;
+}
+
+.dropdown .dropdown-menu.show {
+    animation: dropdownAvatarAnimation .5s ease .0s 1 normal forwards;
+    -webkit-animation: dropdownAvatarAnimation .5s ease .0s 1 normal forwards;
+}
+
+@media (max-width: 767px) {
+    #background-logo {
+        background-color: #007bff;
+    }
+}
+
+@keyframes dropdownAvatarAnimation {
+    from {
+        opacity: 0;
+        margin-top: -8px;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
